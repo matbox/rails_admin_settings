@@ -18,7 +18,7 @@ module RailsAdminSettings
 
     field :key, type: String
     field :raw, type: String, default: ''
-    field :label
+    field :label, type: String
 
     include RailsAdminSettings::RequireHelpers
     include RailsAdminSettings::Processing
